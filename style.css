@@ -319,7 +319,7 @@ header .row{
     background-color:#5865f2 ;
 }
 
-.sctn4-btn:hover{
+.sctn4-btn, .footer-btn:hover{
     color: #FFFFFF;
     background-color: #7289DA;
 }
@@ -399,14 +399,14 @@ footer .container:nth-child(2){
 }
 
 .footer-bottom{
-    background-color: #7FFFD4;
+    background-color: transparent;
     min-height: 50px;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-logo, .footer-btn{
-    background-color: #FFB6C1;
+.footer-btn{
+    background-color:#5865f2;
+    color: #FFFFFF;
 }
-
 
