@@ -6,3 +6,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*----------------
+    GRID LAYOUT
+-----------------*/
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -10px;   
+    margin-right: -10px;  */
+}
+
+.col-25{
+    width: 25%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+/*------------
+    HEADER
+--------------*/
+
+header{
+    background-color: #B8D6E4;
+    padding: 30px; 
+}
+
+.link-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.btn{
+    text-align: end;
+}
+
