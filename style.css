@@ -35,10 +35,9 @@ a{
     font-weight: bold;
 }
 
-.link ul{
+.link{
     display: flex;
     list-style: none;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -135,9 +134,7 @@ header .row{
     justify-content: center;   
 }
 
-.link-nav ul{
-    display: flex;
-    list-style: none;
+.link-nav{
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -371,7 +368,15 @@ footer{
 
 .awsome-icons ul{
     color: #FFFFFF;
-    
+}
+
+.color-title{
+    margin-bottom: 30px;
+}
+
+.footer-link{
+    flex-direction: column;
+    line-height: 40px;
 }
 
 
@@ -379,10 +384,6 @@ footer{
     min-height: 570px;
 }
 
-.footer-links{
-    display: flex;
-    background-color: #20B2AA;
-}
 
 /*---------------------
     FOOTER BOTTOM
