@@ -319,7 +319,7 @@ header .row{
     background-color:#5865f2 ;
 }
 
-.sctn4-btn, .footer-btn:hover{
+.sctn4-btn:hover, .footer-btn:hover{
     color: #FFFFFF;
     background-color: #7289DA;
 }
