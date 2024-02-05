@@ -19,6 +19,14 @@ body{
     padding: 10px;
     border-radius: 20px;
     font-weight: bold;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #5865F2;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 a{
@@ -72,13 +80,20 @@ a{
     width: 70%;
 }
 
+/*---------------
+    TYPOGRAPHY
+-----------------*/
+
+h1{
+    color: #FFFFFF;
+}
 
 /*------------
     HEADER
 --------------*/
 
 header{
-    background-color: #3161E0;
+    background-color: #2A5EE8;
     padding-top: 35px;
 }
 
@@ -103,4 +118,23 @@ header .row{
 .btn{
     display: flex;
     justify-content: center;
+}
+
+/*---------
+    HERO
+-----------*/
+.hero{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .row{
+    background-color: transparent;
+    min-height: 400px;
+    min-width: 900px;
+    border-radius: 5px;
 }
