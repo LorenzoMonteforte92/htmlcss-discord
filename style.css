@@ -86,6 +86,14 @@ a{
 
 h1{
     color: #FFFFFF;
+    font-size: 50px;
+    margin-bottom: 65px;
+}
+
+.hero{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
 }
 
 /*------------
@@ -113,6 +121,7 @@ header .row{
     display: flex;
     list-style: none;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .btn{
@@ -126,15 +135,52 @@ header .row{
 .hero{
     background-image: url(./img/jumbo.png);
     background-size: cover;
-    display: flex;
+    background-repeat: no-repeat;
     min-height: 500px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero .row{
     background-color: transparent;
-    min-height: 400px;
-    min-width: 900px;
     border-radius: 5px;
+    max-width: 800px;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-btn{
+    margin-top: 30px;
+}
+
+.apri-btn{
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+.scarica-btn, .apri-btn{
+    padding: 15px 30px;
+    border-radius: 40px;
+}
+
+.apri-btn:hover{
+    color: #FFFFFF;
+    background-color: #313338;
+}
+
+/*--------------------
+    FIRST SECTION
+----------------------*/
+
+.first-section .container .row{
+    min-height: 500px;
+    display: flex;
+}
+
+.first-section .container{
+    padding: 60px;
 }
