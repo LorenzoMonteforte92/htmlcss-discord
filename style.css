@@ -363,11 +363,14 @@ footer{
 
 .awsome-icons{
     max-width: 100px;
-    justify-content: space-between;
 }
 
 .awsome-icons ul{
     color: #FFFFFF;
+}
+
+.icon-links{
+    justify-content: space-between;
 }
 
 .color-title{
@@ -377,6 +380,7 @@ footer{
 .footer-link{
     flex-direction: column;
     line-height: 40px;
+    font-weight:
 }
 
 
