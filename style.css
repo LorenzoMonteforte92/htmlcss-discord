@@ -35,6 +35,13 @@ a{
     font-weight: bold;
 }
 
+.link ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /*----------------
     GRID LAYOUT
 -----------------*/
@@ -355,6 +362,16 @@ footer{
 
 .language{
     padding-left: 10px;
+}
+
+.awsome-icons{
+    max-width: 100px;
+    justify-content: space-between;
+}
+
+.awsome-icons ul{
+    color: #FFFFFF;
+    
 }
 
 
