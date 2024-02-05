@@ -85,7 +85,6 @@ a{
 -----------------*/
 
 h1{
-    color: #FFFFFF;
     font-size: 50px;
     margin-bottom: 65px;
 }
@@ -94,6 +93,11 @@ h1{
     color: #FFFFFF;
     font-weight: bold;
     text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 /*------------
@@ -183,4 +187,18 @@ header .row{
 
 .first-section .container{
     padding: 60px;
+}
+
+.sctn1-img{
+    background-image: url(./img/item1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+}
+
+.sctn1-text{
+    text-align: justify;
+    padding: 0px 30px;
+    padding-top: 35px;
 }
