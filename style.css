@@ -328,11 +328,35 @@ header .row{
 footer{
     background-color: #23272A;
     padding-top: 12px;
+    color: #FFFFFF;
 }
 
-.footer-measure .col-30{
-    background-color: #F08080;
+.color-title{
+    color: #7289DA;
 }
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.ita{
+    max-height: 70%; 
+    max-width: 70%;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.language{
+    padding-left: 10px;
+}
+
 
 .footer-measure{
     min-height: 570px;
