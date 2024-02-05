@@ -97,6 +97,7 @@ h2{
 
 h3{
     font-weight: bold;
+    font-size: 25px;
 }
 
 .hero{
@@ -296,11 +297,15 @@ header .row{
     background-size: contain;
     min-height: 500px;
     min-width: 800px;
-    border-radius: 5px;
+    margin-bottom: 30px;
+
 }
 
 .img-text{
-    
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 28px;  
 }
 
 /*-----------
