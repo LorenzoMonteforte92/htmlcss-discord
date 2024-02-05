@@ -7,6 +7,20 @@
     box-sizing: border-box;
 }
 
+/*------------
+    GENERAL
+--------------*/
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
 /*----------------
     GRID LAYOUT
 -----------------*/
@@ -20,8 +34,12 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -10px;   
-    margin-right: -10px;  */
+    margin-left: -10px;   
+    margin-right: -10px; 
+}
+
+.row > * {
+    padding: 0 10px;
 }
 
 .col-25{
@@ -48,22 +66,27 @@
     width: 70%;
 }
 
+
+
+
 /*------------
     HEADER
 --------------*/
 
 header{
-    background-color: #B8D6E4;
-    padding: 30px; 
+    background-color: #3161E0;
+    padding-top: 35px;
+}
+
+header .row{
+    justify-content:space-evenly;
 }
 
 .link-nav ul{
     display: flex;
     list-style: none;
     justify-content: center;
+    justify-content: space-around;
 }
 
-.btn{
-    text-align: end;
-}
 
