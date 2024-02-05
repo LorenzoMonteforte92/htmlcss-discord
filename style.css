@@ -315,7 +315,7 @@ header .row{
     background-color:#5865f2 ;
 }
 
-.sctn4-btn{
+.sctn4-btn:hover{
     color: #FFFFFF;
     background-color: #7289DA;
 }
