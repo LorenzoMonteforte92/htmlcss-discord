@@ -83,12 +83,15 @@ header{
 }
 
 header .row{
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
+    align-items: center;
+    padding-top: 5px;
 }
 
 .header-logo{
-    padding-top: 7px;   
+    display: flex;
+    justify-content: center;   
 }
 
 .link-nav ul{
