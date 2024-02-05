@@ -308,6 +308,19 @@ header .row{
     padding: 28px;  
 }
 
+.sctn4-btn{
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background-color:#5865f2 ;
+}
+
+.sctn4-btn{
+    color: #FFFFFF;
+    background-color: #7289DA;
+}
+
+
 /*-----------
     FOOTER
 -------------*/
