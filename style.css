@@ -182,7 +182,6 @@ header .row{
 
 .first-section .container .row{
     min-height: 500px;
-    display: flex;
 }
 
 .first-section .container{
@@ -198,6 +197,56 @@ header .row{
 }
 
 .sctn1-text{
+    text-align: justify;
+    padding: 0px 30px;
+    padding-top: 35px;
+}
+
+/*--------------------
+    SECOND SECTION
+----------------------*/
+.second-section .container .row{
+    min-height: 500px;
+}
+
+.second-section .container{
+    padding: 60px;
+}
+
+.sctn2-img{
+    background-image: url(./img/item2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+}
+
+.sctn2-text{
+    text-align: justify;
+    padding: 0px 30px;
+    padding-top: 35px;
+}
+
+/*--------------------
+    THIRD SECTION
+----------------------*/
+.third-section .container .row{
+    min-height: 500px;
+}
+
+.third-section .container{
+    padding: 60px;
+}
+
+.sctn3-img{
+    background-image: url(./img/item3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+}
+
+.sctn3-text{
     text-align: justify;
     padding: 0px 30px;
     padding-top: 35px;
