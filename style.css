@@ -380,14 +380,7 @@ footer{
 .footer-link{
     flex-direction: column;
     line-height: 40px;
-    font-weight:
 }
-
-
-.footer-measure{
-    min-height: 570px;
-}
-
 
 /*---------------------
     FOOTER BOTTOM
